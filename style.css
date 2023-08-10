@@ -14,7 +14,14 @@ h1 {
 p {
   text-align: center;
 }
-
+a {
+  margin: 0 10px;
+  color: blueviolet;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
 .email {
   text-align: center;
 }
@@ -22,7 +29,10 @@ p {
   text-align: center;
 }
 .photo2 {
-  text-align: center;
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
 .order {
   text-align: left;
